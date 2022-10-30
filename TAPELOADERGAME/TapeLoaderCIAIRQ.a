@@ -100,8 +100,9 @@ TurboTapeBlockCounter !by 0
 
 	;Flashing border ... thin stripes
 
-	lda $d020
-	eor #$06
+	lda #$0e
+	sta $d020
+	lda #$00
 	sta $d020
 	
 
