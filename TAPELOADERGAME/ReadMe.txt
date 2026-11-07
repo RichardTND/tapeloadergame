@@ -2,10 +2,10 @@
 IRQ TURBO TAPE LOADER FOR LOADER GAMES
 ***************************************
 
-This source was made to cover the 
-feature in Scene World issue 32 on how
-to make a tape loader where a game can
-be played during loading.
+This source was originally made to cover 
+the feature in Scene World issue 32 on 
+how to make a tape loader where a game 
+can be played during loading.
 
 In order to be able to use this project
 you will need TapeTool V1.0.0.5, 
@@ -24,6 +24,21 @@ https://csdb.dk/release/?id=160636
 It also comes with the ACME cross
 assembler, modified by Martin Piper.
 The ACME cross assembler is needed!!!
+
+Alternatively, you could use any other
+IRQ Tape loader system to implement my
+tape loader games. Whether the loader
+system is one of your own, or an 
+existing one. 
+
+Example of existing IRQ turbo tape 
+loader systems:
+
+- TapeTool by Martin Piper
+- PRG2TAP with Freeload (previously known as the OCEAN loader system by Paulie Hugues)
+- S-Load by Daniel Kahlin (Not compatible with the C64Ultimate or Ultimate 64 for some strange reason)
+- IRQ Turbo Tape loader system by Laze Ristoski
+- Possibly Cyber Load
 
 After you have downloaded the complete
 TapeTool V1.0.0.5 archive, copy all of
