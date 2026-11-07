@@ -9,11 +9,12 @@ be played during loading.
 
 In order to be able to use this project
 you will need TapeTool V1.0.0.5, 
-Do not use V1.0.0.6 or V1.0.0.7
+Do not use higher versions of Tapetool
 as the source code will not work 
 correctly in those versions. If using 
-V1.0.0.6 or V1.0.0.7, you will need to 
-modify the source code quite a lot.
+higher versions of Tape Tool you will 
+need to modify the source code quite 
+a lot.
 
 TapeTool V1.0.0.5 is available to 
 download from CSDB at:
@@ -92,6 +93,18 @@ code.
 These are all of the files that need 
 to be copied to the TAPETOOL V1.0.0.5
 project folder. 
+
+Alternatively, it is possible to 
+implement the tape loader game into
+other IRQ tape loader systems such
+as Freeload by P.Hugues, S-Load by
+TLR (Not compatible with the U64),
+or any other IRQ turbo tape loader 
+system available. 
+
+Other loader games I wrote (not
+yet available in this repo, but 
+eventually might be included.)
 
 COMPILING:
 
