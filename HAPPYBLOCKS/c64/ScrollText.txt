@@ -1,0 +1,18 @@
+
+	!text "   ... welcome to - happy blocks v1.1 - ...   programming, graphics and music by richard bayliss ...   "
+	!text "(c) 2010-2026 the new dimension ...   this game was originally made as a tape loader game back in 2010 "
+	!text "and it was featured in many t.n.d contributors games in the past ...   the loader game was based on use with "
+	!text "tape tool build v1.0.0.5 by martin piper, but of course it should work on any other irq tape loader system "
+	!text "...   also this version works on ntsc c64s as well as pal systems ...   "
+	!text "the flashing text also been altered so that the irq tape loader doesn't have it implemented ...   "
+	!text "some info about the tape loader game ...   this test routine is based between $0801-$0fff ...   "
+	!text "music memory is at $1000-$1fff ...   sprites: $2000-$27ff ...   charset: $2800-$2fff ...   screen memory data: "
+	!text "$3000-$33e7 ...   screen colour ram data: $3400-$37e7 ...   code and pointers: $3800 - $3eff ...   "
+	!text "to init game you can do it 2 ways ...   either call jsr $3800 directly, or use exomizer v2, crunch with sfx "
+	!text "$3800 and set jsr $080d as jump address ...   to play the main game code, in the irq part of the loader set "
+	!text "jsr $38f7 ...   you will also need a code relocation routine that will relocate your actual program from $4000 "
+	!text "to $0801 and jump directly to the address which your game start/decrunch start is placed ...   so there you go "
+	!text "...   if you like this tape loader game and would like to improve it (i.e. better graphics) and make a loader "
+	!text "game from it, then i have no issue, please make sure to credit me for the game code ...   well, i seem to start "
+	!text "running out of scroll space now ...   have fun with this production ...    okay, bye for now ...   "
+	!byte 0
